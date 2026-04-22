@@ -15,6 +15,7 @@ I contributed to the implementation of:
 - Brute Force algorithm (C++)
 - Backtracking algorithm (C++)
 - Dynamic Programming algorithm (C++)
+Additionally, I collaborated with my teammates on the experimental design and the writing of the report.
 
 The rest of the codebase (image handling, utilities, etc.) was provided by the course.
 
@@ -34,7 +35,7 @@ We conducted experiments comparing:
 
 ## Results
 - Dynamic programming is significantly more efficient 
-- Backtracking performance depends heavily on input structure  
+- Backtracking performance depends heavily on input structure and content, while dynamic programming doesn't  
 - C++ consistently outperforms Python in execution time  
 
 ## Notes
