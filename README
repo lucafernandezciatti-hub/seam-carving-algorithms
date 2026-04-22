@@ -1,0 +1,41 @@
+# Seam Carving Algorithms in C++
+
+Implementation and analysis of seam carving algorithms to find minimum-energy seams in images, using brute force, backtracking and dynamic programming approaches.
+
+## Context
+This project was developed as part of the course Tecnología Digital V: Diseño de Algoritmos (UTDT, 2026).
+
+## Authors
+- Luca Mateo Fernández Ciatti  
+- Candela Sol González Lima  
+- Germán Gómez Bonelli  
+
+## My contribution
+I contributed to the implementation of:
+- Brute Force algorithm (C++)
+- Backtracking algorithm (C++)
+- Dynamic Programming algorithm (C++)
+
+The rest of the codebase (image handling, utilities, etc.) was provided by the course.
+
+## Description
+The project focuses on solving the seam carving problem by modeling the image as an energy matrix and finding a minimum-energy path from top to bottom.
+
+We implemented and compared three approaches:
+- Brute Force (exponential complexity)
+- Backtracking with pruning
+- Dynamic Programming (optimal solution in O(n·m))
+
+## Experiments
+We conducted experiments comparing:
+- Performance of C++ vs Python implementations  
+- Execution time on grayscale vs color images  
+- Impact of image structure on backtracking performance  
+
+## Results
+- Dynamic programming is significantly more efficient 
+- Backtracking performance depends heavily on input structure  
+- C++ consistently outperforms Python in execution time  
+
+## Notes
+This repository contains only the parts of the implementation developed by the authors. Some base files were provided by the course.
